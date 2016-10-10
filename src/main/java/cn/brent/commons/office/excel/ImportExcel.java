@@ -1,4 +1,4 @@
-package cn.brent.office.excel;
+package cn.brent.commons.office.excel;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -30,8 +30,9 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import cn.brent.office.excel.ExcelField.ExAct;
-import cn.brent.office.excel.handler.ValueHandler;
+import cn.brent.commons.lang.Reflections;
+import cn.brent.commons.office.excel.ExcelField.ExAct;
+import cn.brent.commons.office.excel.handler.ValueHandler;
 
 /**
  * 导入Excel文件（支持“XLS”和“XLSX”格式）

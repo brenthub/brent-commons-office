@@ -1,11 +1,11 @@
-package cn.brent.office.excel;
+package cn.brent.commons.office.excel;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
-import cn.brent.office.excel.handler.ValueHandler;
+import cn.brent.commons.office.excel.handler.ValueHandler;
 
 /**
  * Excel注解定义

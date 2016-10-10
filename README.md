@@ -1,4 +1,4 @@
-# brent-office
+# brent-commons-office
 word、excel等office格式文件解析
 
 ## 用法
@@ -8,7 +8,7 @@ word、excel等office格式文件解析
 ```xml
 <dependency>
 	<groupId>cn.brent</groupId>
-	<artifactId>brent-office</artifactId>
+	<artifactId>brent-commons-office</artifactId>
 	<version>1.0.0-SNAPSHOT</version>
 </dependency>
 ```

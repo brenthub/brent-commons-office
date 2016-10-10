@@ -1,4 +1,4 @@
-package cn.brent.office.excel;
+package cn.brent.commons.office.excel;
 
 import java.io.FileOutputStream;
 import java.io.IOException;
@@ -28,9 +28,10 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import cn.brent.office.excel.ExcelField.ExAct;
-import cn.brent.office.excel.ExcelField.ExAlign;
-import cn.brent.office.excel.handler.ValueHandler;
+import cn.brent.commons.lang.Reflections;
+import cn.brent.commons.office.excel.ExcelField.ExAct;
+import cn.brent.commons.office.excel.ExcelField.ExAlign;
+import cn.brent.commons.office.excel.handler.ValueHandler;
 
 /**
  * 导出Excel文件（导出“XLSX”格式，支持大数据量导出 @see org.apache.poi.ss.SpreadsheetVersion）
